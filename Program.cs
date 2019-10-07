@@ -12,7 +12,7 @@ namespace BankingApp
         {
             //An object = an instance of a class
             var account = new Account();
-            account.AccountName = "My Checking";
+            account.AccountName = "Fred Checking";
             account.AccountNumber = 1234;
             account.AccountType = "Checking";
             account.EmailAddress = "test@test.com";
@@ -23,7 +23,7 @@ namespace BankingApp
             account2.AccountNumber = 0020;
             account2.AccountType = "Checking";
             account2.EmailAddress = "tony@test.com";
-            account2.Balance = 100000000;
+            account2.Balance = 20;
             
 
         }

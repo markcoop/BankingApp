@@ -13,17 +13,17 @@ namespace BankingApp
             //An object = an instance of a class
             var account = new Account();
             account.AccountName = "Fred Checking";
-            account.AccountNumber = 1234;
+            account.AccountNumber = 8675309;
             account.AccountType = "Checking";
             account.EmailAddress = "test@test.com";
-            account.Balance = 10000;
+            account.Balance = 1165.55m;
 
             var account2 = new Account();
             account2.AccountName = "Tony Checking";
-            account2.AccountNumber = 0020;
+            account2.AccountNumber = 8675310;
             account2.AccountType = "Checking";
             account2.EmailAddress = "tony@test.com";
-            account2.Balance = 20;
+            account2.Balance = 0.20m;
             
 
         }

@@ -1,0 +1,36 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace BankingApp
+{
+    class Bank
+    {
+
+        #region Methods
+
+        public Account CreateAccount(string accountName, string emailAddress, TypeOfAccount accountType, decimal initialDeposit)
+        {
+            var account = new Account
+            {
+                AccountName = accountName,
+                EmailAddress = emailAddress,
+                AccountType = accountType
+            };
+            
+            if (initialDeposit > 0)
+            {
+                account.Deposit(initialDeposit);
+            }
+
+            return account;
+        }
+
+        
+
+        #endregion
+        
+    }
+}
